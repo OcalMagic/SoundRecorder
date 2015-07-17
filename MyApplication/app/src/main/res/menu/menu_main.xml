@@ -2,9 +2,90 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
+
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
         android:orderInCategory="100"
         app:showAsAction="never" />
 
+
+<textView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Log in"
+    android:textSize="30dp"
+    android:id="@+id/indentification"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+
+    />
+
+
+<textView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Notification"
+    android:textSize="30dp"
+    android:id="@+id/annoncement"
+    android:layout_alignTop="@+id/identification"
+    android:layout_alignStart="@+id/identification"
+    android:layout_alignBottom="@+id/identification"
+    android:layout_alignEnd="@+id/identification"
+
+    />
+
+
+<textView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Bug report"
+    android:textSize="30dp"
+    android:id="@+id/restor"
+    android:layout_alignTop="@+id/identification"
+    android:layout_alignStart="@+id/identification"
+    android:layout_alignBottom="@+id/identification"
+    android:layout_alignEnd="@+id/identification"
+
+    />
+
+
+<textView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="FAQ"
+    android:textSize="30dp"
+    android:id="@+id/questions"
+    android:layout_alignTop="@+id/identification"
+    android:layout_alignStart="@+id/identification"
+    android:layout_alignBottom="@+id/identification"
+    android:layout_alignEnd="@+id/identification"
+
+    />
+
+<texView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Credits"
+    android:textSize="30dp"
+    android:id="@+id/advantage"
+    android:layout_alignTop="@+id/identification"
+    android:layout_alignStart="@+id/identification"
+    android:layout_alignBottom="@+id/identification"
+    android:layout_alignEnd="@+id/identification"
+
+    />
+
+
+    <ListView
+        android:id="@+id/main_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"/>
 </menu>
+
