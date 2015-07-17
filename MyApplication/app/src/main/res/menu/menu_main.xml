@@ -34,5 +34,61 @@
 
         android:title="Notification" />
 
+    <item
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bug report"
+        android:textSize="30dp"
+        android:id="@+id/problem"
+        android:layout_alignTop="@+id/identification"
+        android:layout_alignStart="@+id/identification"
+        android:layout_alignBottom="@+id/identification"
+        android:layout_alignEnd="@+id/identification"
+
+        android:title="Bug report" />
+
+    <item
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQ"
+        android:textSize="30dp"
+        android:id="@+id/question"
+        android:layout_alignTop="@+id/identification"
+        android:layout_alignStart="@+id/identification"
+        android:layout_alignBottom="@+id/identification"
+        android:layout_alignEnd="@+id/identification"
+
+        android:title="FAQ" />
+
+    <item
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credits"
+        android:textSize="30dp"
+        android:id="@+id/advantage"
+        android:layout_alignTop="@+id/identification"
+        android:layout_alignStart="@+id/identification"
+        android:layout_alignBottom="@+id/identification"
+        android:layout_alignEnd="@+id/identification"
+
+        android:title="Credits" />
+
+    <item
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preference"
+        android:textSize="30dp"
+        android:id="@+id/system"
+        android:layout_alignTop="@+id/identification"
+        android:layout_alignStart="@+id/identification"
+        android:layout_alignBottom="@+id/identification"
+        android:layout_alignEnd="@+id/identification"
+
+        android:title="Preference" />
+
 </menu>
 
